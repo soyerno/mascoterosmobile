@@ -1,0 +1,26 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.mar-bot-40 {
+	margin-bottom: 40px;
+}
+.brand-logo {
+	color: white;
+	font-size: 3.8rem;
+	line-height: 4.2rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.brand-logo i.fa.fa-paw, .brand-logo-collapsed i.fa.fa-paw{
+	color: white;
+	font-size: 3.8rem;
+	line-height: 4.2rem;
+}
+.brand-logo i.fa.fa-paw, .brand-logo .brand-name {
+	float: left;
+}
+
+.brand-logo .brand-name {
+	font-size: 2.8rem;
+	margin-left: 8px;
+}
+

@@ -1,0 +1,50 @@
+<h3>Eventos</h3>
+<section data-ng-controller="EventsController" data-ng-init="find()">
+    <div class="list-group">
+        <a data-ng-repeat="event in events" data-ng-href="#!/events" class="list-group-item">
+            <div class="well">
+                <div class="media">
+                    <div class="pull-left">
+                        <img class="media-object" ng-src="{{event.image | cloudinaryProfile}}">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading" data-ng-bind="event.title"></h4>
+                        <div ng-bind-html="event.content"></div>
+                        <ul class="list-inline list-unstyled">
+                            <li><span><i class="fa fa-calendar"></i> {{event.date}} </span></li>
+                            <li>|</li>
+                            <!--<li>
+                                <span><i class="fa fa-facebook-square"></i></span>
+                                <span><i class="fa fa-twitter-square"></i></span>
+                                <span><i class="fa fa-google-plus-square"></i></span>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <h4 class="alert alert-purple text-center pv-lg" data-ng-if="events.$resolved && !events.length">
+        No tienes eventos creados, deseas <a href="/#!/events/create" class="text-yellow">crear uno</a>?
+    </h4>
+</section>
+<!--<section data-ng-controller="PetsController" data-ng-init="find()">
+    <div class="page-header">
+        <h1>Pets</h1>
+    </div>
+    <div class="list-group">
+        <a data-ng-repeat="pet in pets" data-ng-href="#!/pets/{{pet._id}}" class="list-group-item">
+			<small class="list-group-item-text">
+				Posted on
+				<span data-ng-bind="pet.created | date:'medium'"></span>
+				by
+				<span data-ng-bind="pet.user.displayName"></span>
+			</small>
+			<h4 class="list-group-item-heading" data-ng-bind="pet.name"></h4>
+            <span>{{pet}}</span>
+        </a>
+    </div>
+    <div class="alert alert-warning text-center" data-ng-hide="!pets.$resolved || pets.length">
+    	No Pets yet, why don't you <a href="/#!/pets/create">create one</a>?
+    </div>
+</section>-->

@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "angular-wizard": "~0.4.2",
-    "lodash": "~3.5.0"
+    "lodash": "~3.5.0",
+    "ngCordova": "~0.1.14-alpha"
   }
 }

@@ -1,0 +1,49 @@
+<section data-ng-controller="ContactsController">
+    <div class="page-header">
+        <h2>Queres formar parte de mascoteros?</h2>
+
+        <p>Estamos trabajando para darte el mejor servicio, déjanos tu mail, un teléfono y tu rol( vet, paseador, entrenador, etc y nosotros nos ponemos en contacto con vos).</p>
+
+        <p>Por otras consultas envíanos un mail a <a href="mailto:info@mascoteros.net">info@mascoteros.net</a></p>
+
+        <p>Gracias por confiar en nosotros. <br/>
+        El equipo de mascoteros.</p>
+    </div>
+    <div class="col-md-12">
+        <form class="form-horizontal" data-ng-submit="create()" novalidate>
+            <fieldset>
+                <div class="form-group">
+                    <label class="control-label" for="name">Nombre</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="name" id="name" class="form-control" placeholder="Nombre" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="role">Rol</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="role" id="role" class="form-control" placeholder="Veterinaria, Entrenador" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="email">Email</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="email" id="email" class="form-control" placeholder="Email@email.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="tel">Teléfono</label>
+                    <div class="controls">
+                        <input type="text" data-ng-model="tel" id="tel" class="form-control" placeholder="(011)11-2233-4455" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <br/>
+                    <input type="submit" class="btn btn-default">
+                </div>
+				<div data-ng-show="error" class="text-danger">
+					<strong data-ng-bind="error"></strong>
+				</div>
+            </fieldset>
+        </form>
+    </div>
+</section>

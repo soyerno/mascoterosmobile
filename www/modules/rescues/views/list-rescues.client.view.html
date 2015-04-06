@@ -1,0 +1,19 @@
+<section data-ng-controller="RescuesController" data-ng-init="find()">
+    <div class="page-header">
+        <h1>Rescues</h1>
+    </div>
+    <div class="list-group">
+        <a data-ng-repeat="rescue in rescues" data-ng-href="#!/rescues/{{rescue._id}}" class="list-group-item">
+			<small class="list-group-item-text">
+				Posted on
+				<span data-ng-bind="rescue.created | date:'medium'"></span>
+				by
+				<span data-ng-bind="rescue.user.displayName"></span>
+			</small>
+			<h4 class="list-group-item-heading" data-ng-bind="rescue.name"></h4>
+        </a>
+    </div>
+    <div class="alert alert-warning text-center" data-ng-hide="!rescues.$resolved || rescues.length">
+    	No Rescues yet, why don't you <a href="/#!/rescues/create">create one</a>?
+    </div>
+</section>

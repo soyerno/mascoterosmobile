@@ -1,0 +1,78 @@
+<h3>Mascotas</h3>
+<section data-ng-controller="PetsController" data-ng-init="find()" class="row">
+    <!--<a data-ng-repeat="pet in pets" data-ng-href="#!/pets/{{pet._id}}">-->
+        <div class="col-lg-4" data-ng-repeat="pet in pets">
+            <!-- START widget-->
+            <div class="wow bounceInUp animated panel widget" data-wow-offset="120" data-wow-duration="1.5s" >
+                <div class="panel-body text-center bg-center" style="background-image: url('{{pet.picture | cloudinaryProfileBlured}}')">
+                    <div class="row row-table">
+                        <div class="col-xs-12 text-white">
+                            <a data-ng-href="#!/pet/{{pet.slug}}">
+                                <img ng-src="{{pet.picture | cloudinaryProfile}}" alt="{{pet.name}}" class="img-thumbnail thumb128">
+                            </a>
+                            <h3 class="m0">{{pet.name}}</h3>
+                            <p class="m0">
+                                <a data-ng-href="#!/pet/{{pet.slug}}" style="color: white;"><em class="fa fa-paw"></em> {{pet.slug}}</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="panel-body text-center bg-gray-darker">
+                    <div class="row row-table">
+                        <div class="col-xs-3">
+                            <a href="#" class="text-white">
+                                <em class="fa fa-twitter fa-2x"></em>
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#" class="text-white">
+                                <em class="fa fa-facebook fa-2x"></em>
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#" class="text-white">
+                                <em class="fa fa-google-plus fa-2x"></em>
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a href="#" class="text-white">
+                                <em class="fa fa-comments fa-2x"></em>
+                            </a>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="list-group">
+                    <!--<a href="#" class="list-group-item">
+                        <span class="pull-right">Saliendo a pasear</span>
+                        <em class="fa fa-fw fa-clock-o text-muted"></em>Ultima Actividad</a>-->
+                    <a href="#" class="list-group-item">
+                        <span class="label label-primary pull-right">{{pet.user.displayName}}</span>
+                        <em class="fa fa-fw fa-user text-muted"></em>Mejor Amigo</a>
+                    <!--<a href="#" class="list-group-item">
+                        <span class="label label-primary pull-right">300</span>
+                        <em class="fa fa-fw fa-folder-open-o text-muted"></em>Fotos</a>-->
+                    <a href="#" class="list-group-item">
+                        <span ng-show="pet.isPrivate" class="label label-success pull-right">Sí</span>
+                        <span ng-show="!pet.isPrivate" class="label label-success pull-right">No</span>
+                        <em class="fa fa-fw fa-user text-muted"></em>Perfil Privado</a>
+                </div>
+                <!--<div class="widget bg-success">
+                    <div class="row row-table">
+                        <div class="col-xs-4 text-center pv-lg">
+                            <em class="icon-star fa-3x"></em>
+                        </div>
+                        <div class="col-xs-8 pv-lg">
+                            <div class="h1 m0 text-bold">7000</div>
+                            <div class="text-uppercase">likes totales</div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <!-- END widget-->
+        </div>
+    </div>
+    <!--</a>-->
+
+    <h4 class="alert alert-purple text-center pv-lg" data-ng-if="pets.$resolved && !pets.length">
+        No tienes mascotas creadas, deseas <a href="/#!/pets/create" class="text-yellow">crear una</a>?
+    </h4>
+</section>

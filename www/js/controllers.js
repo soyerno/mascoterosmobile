@@ -1,7 +1,25 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
-  $scope.enterValidation = function(){
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform) {
+
+	$scope.click =  function(){
+
+		$ionicPlatform.ready(function() {
+			$cordovaBarcodeScanner
+				.scan()
+				.then(function(barcodeData) {
+					// Success! Barcode data is here
+					if(!barcodeData.cancelled){
+						window.open(barcodeData.text, '_blank');
+					}
+				}, function(error) {
+					// An error occurred
+				});
+		});
+
+	};
+
+	$scope.enterValidation = function(){
     return true;
   };
 
@@ -49,7 +67,10 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
-})
+}).
 
+controller('BarcodeCtrl', function($scope) {
+
+})
 .controller('LoginCtrl', function($scope, $stateParams) {
 });

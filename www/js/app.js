@@ -25,12 +25,11 @@ angular.module('starter', ['ionic', 'starter.controllers','mgo-angular-wizard','
 
   .state('app', {
     url: '/app',
-    abstract: true,
-    templateUrl: 'templates/menu.html',
+    templateUrl: 'templates/home.html',
     controller: 'AppCtrl'
   })
 
-  .state('app.login', {
+  /*.state('app.login', {
     url: '/login',
     views: {
       'menuContent': {
@@ -66,15 +65,16 @@ angular.module('starter', ['ionic', 'starter.controllers','mgo-angular-wizard','
       }
     }
   })
-    .state('app.playlists', {
-      url: '/playlists',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
-        }
+
+  .state('app.playlists', {
+    url: '/playlists',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/playlists.html',
+        controller: 'PlaylistsCtrl'
       }
-    })
+    }
+  })*/
 
   .state('app.single', {
     url: '/playlists/:playlistId',
@@ -86,5 +86,5 @@ angular.module('starter', ['ionic', 'starter.controllers','mgo-angular-wizard','
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/login');
+  $urlRouterProvider.otherwise('/app');
 });

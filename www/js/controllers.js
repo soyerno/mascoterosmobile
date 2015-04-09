@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform, $cordovaInAppBrowser) {
 
 	$scope.click =  function(){
 
@@ -10,7 +10,14 @@ angular.module('starter.controllers', [])
 				.then(function(barcodeData) {
 					// Success! Barcode data is here
 					if(!barcodeData.cancelled){
-						window.open(barcodeData.text, '_blank');
+						//window.open(barcodeData.text, '_system');
+                        $cordovaInAppBrowser.open(barcodeData.text, '_blank', options)
+                            .then(function(event) {
+                              // success
+                            })
+                            .catch(function(event) {
+                              // error
+                            });
 					}
 				}, function(error) {
 					// An error occurred
@@ -18,6 +25,23 @@ angular.module('starter.controllers', [])
 		});
 
 	};
+
+      var options = {
+        location: 'yes',
+        clearcache: 'yes',
+        toolbar: 'no'
+      };
+
+
+      $scope.addPet = function () {
+        $cordovaInAppBrowser.open('http://mascoteros.net/#!/pets/create', '_blank', options)
+            .then(function(event) {
+              // success
+            })
+            .catch(function(event) {
+              // error
+            });
+      }
 
 	$scope.enterValidation = function(){
     return true;

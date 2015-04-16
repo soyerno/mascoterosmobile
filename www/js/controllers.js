@@ -1,9 +1,7 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform, $cordovaInAppBrowser) {
-
-	$scope.click =  function(){
-
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform, $cordovaInAppBrowser,$http, $cordovaOauth) {
+  $scope.click =  function(){
 		$ionicPlatform.ready(function() {
 			$cordovaBarcodeScanner
 				.scan()
@@ -23,25 +21,36 @@ angular.module('starter.controllers', [])
 					// An error occurred
 				});
 		});
-
 	};
 
-      var options = {
-        location: 'yes',
-        clearcache: 'yes',
-        toolbar: 'no'
-      };
+  $scope.googleLogin = function() {
+    $cordovaOauth.facebook("1414293935539684", ["email"]).then(function(result) {
+      $scope.result = result;
+    }, function(error) {
+      $scope.result = error;
+    });
+  };
 
+/*
+  $http.get('http://localhost:3031/auth/facebook').then(function(data){
+    console.log(data);
+  });*/
 
-      $scope.addPet = function () {
-        $cordovaInAppBrowser.open('http://mascoteros.net/#!/pets/create', '_blank', options)
-            .then(function(event) {
-              // success
-            })
-            .catch(function(event) {
-              // error
-            });
-      }
+  var options = {
+      location: 'yes',
+      clearcache: 'yes',
+      toolbar: 'no'
+    };
+
+  $scope.addPet = function () {
+    $cordovaInAppBrowser.open('http://mascoteros.net/#!/pets/create', '_blank', options)
+        .then(function(event) {
+          // success
+        })
+        .catch(function(event) {
+          // error
+        });
+  };
 
 	$scope.enterValidation = function(){
     return true;
@@ -81,19 +90,7 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
-
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-}).
-
-controller('BarcodeCtrl', function($scope) {
+.controller('BarcodeCtrl', function($scope) {
 
 })
 .controller('LoginCtrl', function($scope, $stateParams) {

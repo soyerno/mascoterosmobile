@@ -33,3 +33,16 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 
 
 cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
+
+#FACBOOK INTEGRATION
+cordova plugin add https://github.com/Wizcorp/phonegap-facebook-plugin.git --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+
+#OAuth
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
+
+#get hashes for facebook
+
+keytool -list -alias androiddebugkey -keystore %HOMEPATH%/.android/debug.keystore
+
+pass android
+EA:2A:DD:C2:FF:46:22:97:6A:4E:C6:2E:03:7B:17:6B:20:EF:C3:C6

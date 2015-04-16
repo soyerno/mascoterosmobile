@@ -2,9 +2,411 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28790dc9-36a8-4992-b5d2-c02dc6c6b141" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/home.html" afterPath="$PROJECT_DIR$/www/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\.idea\perros.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-animate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-sanitize\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\api\angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\release\angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\release\angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\state.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\view.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-ui-router\src\viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\CONTRIBUTE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\dist\angular-wizard.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\dist\angular-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\dist\angular-wizard.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\dist\angular-wizard.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\dist\angular-wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\license.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\angular-wizard.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\angularModule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\step.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\step.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\wizardButtons.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\src\wizardHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular-wizard\test\angularWizardSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\angular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\css\ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\css\ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\fonts\ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\fonts\ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\fonts\ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\fonts\ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\js\ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_split-pane.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionicons\_ionicons-animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionicons\_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionicons\_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionicons\_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ionic\scss\ionicons\ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\lodash\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\lodash\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\lodash\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\lodash\lodash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\lodash\lodash.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\dist\ng-cordova-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\dist\ng-cordova-mocks.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\dist\ng-cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\dist\ng-cordova.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\lib\ngCordova\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\articles.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\config\articles.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\config\articles.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\controllers\articles.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\services\articles.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\tests\articles.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\views\create-article.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\views\edit-article.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\views\list-articles.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\articles\views\view-article.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\comments.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\config\comments.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\controllers\comments.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\services\comments.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\tests\comments.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\views\create-comment.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\views\edit-comment.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\views\list-comments.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\comments\views\view-comment.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\config\contacts.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\contacts.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\controllers\contacts.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\services\contacts.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\tests\contacts.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\views\create-contact.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\views\edit-contact.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\views\list-contacts.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\contacts\views\view-contact.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\config\core.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\config\core.client.constants.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\config\core.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\controllers\app.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\controllers\header.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\controllers\home.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\controllers\sidebar.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\controllers\timeline.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\core.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\css\core.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\css\datePicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\css\landing.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\css\offsidebar-tab-1.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\css\pets.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\directives\fb-page-plugin.client.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\directives\navbar-search.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\directives\sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\directives\toggle-state.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\i18n\en.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\i18n\es_AR.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\bg-download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\bg_top.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\bg_top_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\favicon\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\logo-mean.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\logo-single.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\brand\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\cel1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\cel2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\ebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\loaders\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\slides\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\slides\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\img\slides\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\colors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\menus.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\nav-search.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\route-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\toggle-state.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\services\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\tests\app.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\tests\header.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\tests\home.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\tests\timeline.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\home.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\fb-page-plugin.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\offsidebar-tab1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\offsidebar-tab2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\offsidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\partials\top-navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\core\views\timeline.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\config\events.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\config\events.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\controllers\events.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\events.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\services\events.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\tests\events.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\views\create-event.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\views\edit-event.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\views\list-events.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\events\views\view-event.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\config\faqs.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\config\faqs.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\controllers\faqs.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\faqs.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\services\faqs.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\tests\faqs.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\views\create-faq.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\views\edit-faq.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\views\list-faqs.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\faqs\views\view-faq.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\config\imageuploaders.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\config\imageuploaders.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\controllers\imageuploaders.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\filters\cloudinary.client.filter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\imageuploaders.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\services\imageuploaders.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\tests\imageuploaders.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\views\create-imageuploader.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\views\edit-imageuploader.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\views\list-imageuploaders.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\imageuploaders\views\view-imageuploader.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\config\issues.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\config\issues.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\controllers\issues.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\issues.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\services\issues.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\tests\issues.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\views\create-issue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\views\edit-issue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\views\list-issues.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\issues\views\view-issue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\config\notifications.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\config\notifications.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\controllers\notifications.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\notifications.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\services\notifications.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\tests\notifications.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\views\create-notification.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\views\edit-notification.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\views\list-notifications.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\notifications\views\view-notification.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\config\petgenres.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\config\petgenres.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\controllers\petgenres.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\directives\pet-genre-selector.client.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\petgenres.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\services\petgenres.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\tests\petgenres.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\views\create-petgenre.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\views\edit-petgenre.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\views\list-petgenres.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\views\partials\pet-genre-selector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\petgenres\views\view-petgenre.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\config\pets.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\config\pets.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\controllers\pets.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\css\pet_profile.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\css\qr-print.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\css\qr.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\directives\qr.client.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\pets.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\services\pets.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\tests\pets.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\tests\qr.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\create-pet.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\edit-pet.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\list-pets-adoption.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\list-pets.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\qr.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\view-pet.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pets\views\view-pets.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\config\pettypes.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\config\pettypes.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\controllers\pettypes.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\directives\pet-type-selector.client.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\pettypes.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\services\pettypes.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\tests\pettypes.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\views\create-pettype.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\views\edit-pettype.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\views\list-pettypes.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\views\partials\pet-type-selector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\pettypes\views\view-pettype.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\config\rescues.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\config\rescues.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\controllers\rescues.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\rescues.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\services\rescues.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\tests\rescues.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\views\create-rescue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\views\edit-rescue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\views\list-rescues.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\rescues\views\view-rescue.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\config\roles.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\controllers\roles.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\directives\role-user-selector.client.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\roles.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\services\roles.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\tests\roles.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\views\create-role.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\views\edit-role.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\views\list-roles.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\views\partials\role-user-selector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\roles\views\view-role.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\config\shelters.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\config\shelters.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\controllers\shelters.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\services\shelters.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\shelters.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\tests\shelters.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\views\create-shelter.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\views\edit-shelter.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\views\list-shelters.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shelters\views\view-shelter.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\config\shops.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\config\shops.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\controllers\shops.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\services\shops.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\shops.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\tests\shops.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\views\create-shop.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\views\edit-shop.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\views\list-shops.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\shops\views\view-shop.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\config\trainers.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\config\trainers.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\controllers\trainers.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\services\trainers.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\tests\trainers.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\trainers.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\views\create-trainer.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\views\edit-trainer.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\views\list-trainers.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\trainers\views\view-trainer.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\config\users.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\config\users.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\controllers\authentication.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\controllers\password.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\controllers\settings.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\css\users.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\img\buttons\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\img\buttons\github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\img\buttons\google.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\img\buttons\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\img\buttons\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\services\authentication.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\services\users.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\tests\authentication.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\users.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\authentication\signin.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\authentication\signup.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\password\forgot-password.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\password\reset-password-invalid.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\password\reset-password-success.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\password\reset-password.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\settings\change-password.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\settings\edit-profile.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\users\views\settings\social-accounts.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\config\vets.client.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\config\vets.client.routes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\controllers\vets.client.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\services\vets.client.service.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\tests\vets.client.controller.test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\vets.client.module.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\views\create-vet.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\views\edit-vet.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\views\list-vets.client.view.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user2\Documents\GitHub\mascoterosmobile\www\modules\vets\views\view-vet.client.view.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="perros.iws" />
@@ -26,74 +428,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4615386">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.375">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="88" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.min.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/application.min.css.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6557377">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.33116883">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -113,7 +452,6 @@
         <option value="$PROJECT_DIR$/www/README.md" />
         <option value="$PROJECT_DIR$/www/templates/signup.html" />
         <option value="$PROJECT_DIR$/www/templates/search.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/www/templates/login.html" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
@@ -121,6 +459,7 @@
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/templates/home.html" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -137,8 +476,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -179,7 +520,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,11 +562,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,17 +576,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +594,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -315,29 +648,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24868283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756758" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756758" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756758" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -364,11 +697,61 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="88" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/application.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ionic.project">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,14 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/application.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -589,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,13 +1010,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020491803">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
@@ -654,7 +1023,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="88" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="88" />
           <folding />
         </state>
@@ -662,8 +1031,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4615386">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/application.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.089788735">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -684,21 +1080,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/application.min.css.map">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6557377">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.33116883">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -20,5 +20,8 @@
     "com.ionic.keyboard",
     "https://github.com/wildabeast/BarcodeScanner.git",
     "org.apache.cordova.inappbrowser"
+  ],
+  "cordovaPlatforms": [
+    "ios"
   ]
 }

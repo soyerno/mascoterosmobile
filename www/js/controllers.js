@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform, $cordovaInAppBrowser,$http, $cordovaOauth) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform,
+                                $cordovaInAppBrowser,$http, $cordovaOauth) {
   $scope.click =  function(){
 		$ionicPlatform.ready(function() {
 			$cordovaBarcodeScanner
@@ -23,18 +24,15 @@ angular.module('starter.controllers', [])
 		});
 	};
 
-  $scope.googleLogin = function() {
+  $scope.facebookLogin = function() {
     $cordovaOauth.facebook("1414293935539684", ["email"]).then(function(result) {
-      $scope.result = result;
+      $http.get('http://192.168.1.104:3000/api/auth/facebook/validateToken').then(function(response){
+        $scope.result = response;
+      });
     }, function(error) {
       $scope.result = error;
     });
   };
-
-/*
-  $http.get('http://localhost:3031/auth/facebook').then(function(data){
-    console.log(data);
-  });*/
 
   var options = {
       location: 'yes',

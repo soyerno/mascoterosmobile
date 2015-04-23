@@ -10,13 +10,13 @@ angular.module('starter.controllers', [])
 					// Success! Barcode data is here
 					if(!barcodeData.cancelled){
 						//window.open(barcodeData.text, '_system');
-                        $cordovaInAppBrowser.open(barcodeData.text, '_blank', options)
-                            .then(function(event) {
-                              // success
-                            })
-                            .catch(function(event) {
-                              // error
-                            });
+            $cordovaInAppBrowser.open(barcodeData.text, '_blank', options)
+              .then(function(event) {
+                // success
+              })
+              .catch(function(event) {
+                // error
+              });
 					}
 				}, function(error) {
 					// An error occurred
@@ -26,7 +26,9 @@ angular.module('starter.controllers', [])
 
   $scope.facebookLogin = function() {
     $cordovaOauth.facebook("1414293935539684", ["email"]).then(function(result) {
-      $http.get('http://192.168.1.104:3000/api/auth/facebook/validateToken').then(function(response){
+      //fwtv 10.30.10.110
+      //la air 192.168.1.104
+      $http.get('http://10.30.10.110:3000/api/auth/facebook/validateToken?access_token=' + result.access_token).then(function(response){
         $scope.result = response;
       });
     }, function(error) {

@@ -1,12 +1,18 @@
-name
+#name
 http://forum.ionicframework.com/t/renaming-android-build-apk-from-cordovaapp-to-your-app-name/15416
 
+#pre
+bower install && npm install
 
 cordova plugin rm org.apache.cordova.console &&
 cordova build --release android && 
 keytool -genkey -v -keystore mascoteros.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000 &&
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mascoteros.keystore mascoteros.apk mascoteros &&
 zipalign -v 4 mascoteros.apk mascoteros-release.apk
+
+#exporte
+export ANDROID_HOME=/Applications/android-sdk-macosx export ANDROID_TOOLS=Applications/android-sdk-macosx/android-sdk/tools/ export ANDROID_PLATFORM_TOOLS=Applications/android-sdk-macosx/platform-tools/ PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:.
+
 
 Ionic App Base
 =====================

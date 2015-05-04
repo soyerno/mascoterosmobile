@@ -1,11 +1,12 @@
+name
+http://forum.ionicframework.com/t/renaming-android-build-apk-from-cordovaapp-to-your-app-name/15416
+
 
 cordova plugin rm org.apache.cordova.console &&
-
 cordova build --release android && 
-
 keytool -genkey -v -keystore mascoteros.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000 &&
-
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mascoteros.keystore mascoteros-release.apk mascoteros &&
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mascoteros.keystore mascoteros.apk mascoteros &&
+zipalign -v 4 mascoteros.apk mascoteros-release.apk
 
 Ionic App Base
 =====================

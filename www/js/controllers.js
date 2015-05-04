@@ -1,39 +1,54 @@
 angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout, $cordovaBarcodeScanner, $ionicPlatform,
-                                $cordovaInAppBrowser,$http, $cordovaOauth) {
-  $scope.click =  function(){
-		$ionicPlatform.ready(function() {
-			$cordovaBarcodeScanner
-				.scan()
-				.then(function(barcodeData) {
-					// Success! Barcode data is here
-					if(!barcodeData.cancelled){
-						//window.open(barcodeData.text, '_system');
+                                $cordovaInAppBrowser, $http, $cordovaOauth, $window) {
+  $scope.searchByName = function(name) {
+    if (name) {
+      $cordovaInAppBrowser.open('http://mascoteros.net/#!/pet/' + name, '_blank', options)
+        .then(function (event) {
+          // success
+        })
+        .catch(function (event) {
+          // error
+        });
+    }
+  };
+  $scope.searchByQr = function() {
+    $ionicPlatform.ready(function () {
+      $cordovaBarcodeScanner
+        .scan()
+        .then(function (barcodeData) {
+          // Success! Barcode data is here
+          if (!barcodeData.cancelled) {
+            //window.open(barcodeData.text, '_system');
             $cordovaInAppBrowser.open(barcodeData.text, '_blank', options)
-              .then(function(event) {
+              .then(function (event) {
                 // success
               })
-              .catch(function(event) {
+              .catch(function (event) {
                 // error
               });
-					}
-				}, function(error) {
-					// An error occurred
-				});
-		});
-	};
+          }
+        }, function (error) {
+          // An error occurred
+        });
+    });
+  };
 
   $scope.facebookLogin = function() {
-    $cordovaOauth.facebook("1414293935539684", ["email"]).then(function(result) {
-      //fwtv 10.30.10.110
+   // $cordovaOauth.facebook("1414293935539684", ["email"]).then(function(result) {
+      //fwtv 10.30.10ionic.110
       //la air 192.168.1.104
-      $http.get('http://10.30.10.110:3000/api/auth/facebook/validateToken?access_token=' + result.access_token).then(function(response){
+      //$http.get('http://192.168.1.100:3000/api/auth/facebook/validateToken?access_token=' + result.access_token).then(function(response){
+      //
+      $http.get('http://localhost:3000/api/auth/facebook/validateToken?access_token=' +
+        'CAAUGSveixeQBALufzIBc8ZAVhfLqPjMv7rkLqVP6GAv7PnesZCRzOE86rYRrOWGx5ywogZCxJlr0de1GAlBWylRpCyZAXRdZCBuTZC47D1HZCzTu4znakah4VCRfzjybiJZCl5tgJaaCHgGmZBt7Pn9aKOnKorPVzuCDsnUZBoE6f3u1MiQ9euihnJt0AwDn9NaZBHF86Uj96WwxZBAp7WEfjzIL').then(function(response){
+        $window.user = response;
         $scope.result = response;
       });
-    }, function(error) {
+    /*}, function(error) {
       $scope.result = error;
-    });
+    });*/
   };
 
   var options = {

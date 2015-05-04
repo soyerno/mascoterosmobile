@@ -1,3 +1,12 @@
+
+cordova plugin rm org.apache.cordova.console &&
+
+cordova build --release android && 
+
+keytool -genkey -v -keystore mascoteros.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000 &&
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mascoteros.keystore mascoteros-release.apk mascoteros &&
+
 Ionic App Base
 =====================
 

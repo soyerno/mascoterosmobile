@@ -46,3 +46,17 @@ keytool -list -alias androiddebugkey -keystore %HOMEPATH%/.android/debug.keystor
 
 pass android
 EA:2A:DD:C2:FF:46:22:97:6A:4E:C6:2E:03:7B:17:6B:20:EF:C3:C6
+
+
+#Para firmar la app
+
+keytool -genkey -v -keystore my-release-key-mascoteros.keystore -alias mascoteros -keyalg RSA -keysize 2048 -validity 90000
+
+Is CN=gerardo grimaldi, OU=mascoteros.net, O=mascoteros, L=buenos aires, ST=buenos aires, C=ar correct?
+
+pass mascoteros
+
+para hacer andar home
+
+export ANDROID_HOME=/Applications/android-sdk-macosx export ANDROID_TOOLS=Applications/android-sdk-macosx/android-sdk/tools/ export ANDROID_PLATFORM_TOOLS=Applications/android-sdk-macosx/platform-tools/ PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:.
+

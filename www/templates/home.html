@@ -1,14 +1,33 @@
-<ion-view view-title="Home">
+ <ion-view view-title="Home">
     <div class="bar bar-header bar-calm">
-        <h1 class="title">Mascoteros.net</h1>
+        <h1 class="title">Buscar Mascotas</h1>
     </div>
     <ion-content>
-        <h1>Buscar</h1>
-        <button class="button button-block button-light ion-ios-camera" ng-click="click()">Camara</button>
-        <button class="button button-block button-light ion-ios-camera" ng-click="addPet()">Agregar una mascota</button>
-        <button class="button button-block button-light ion-ios-camera" ng-click="facebookLogin()">Login</button>
+      <div class="content padding has-header">
+      <!--div class="spacer" style="height: 40px;"></div-->
 
-      <h5>{{result}}</h5>
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" ng-model="name" placeholder="Nombre">
+        </label>
+      </div>
+
+      <button class="button icon-right ion-ios-search button-block button-positive button-outline"  ng-click="searchByName(name)">Buscar por Nombre</button>
+
+      <div class="spacer" style="height: 40px;"></div>
+
+      <button class="button icon-right ion-ios-camera-outline button-block button-positive button-outline" ng-click="searchByQr()">Buscar por codigo QR</button>
+
+      <div class="spacer" style="height: 40px;"></div>
+
+      <button class="button icon-right ion-ios-plus-outline button-block button-positive button-outline" ng-click="addPet()">Agregar una mascota</button>
+        <!--
+                <button class="button button-block button-outline button-positive icon-right ion-ios-camera" ng-click="facebookLogin()">Login</button>
+        -->
+
+ <!--       <h5>{{result}}</h5>-->
+    </div>
     </ion-content>
 
 </ion-view>

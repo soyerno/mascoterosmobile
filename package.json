@@ -16,7 +16,6 @@
   },
   "cordovaPlugins": [
     "org.apache.cordova.device",
-    "org.apache.cordova.console",
     "com.ionic.keyboard",
     "https://github.com/wildabeast/BarcodeScanner.git",
     "org.apache.cordova.inappbrowser"

@@ -7,8 +7,9 @@ bower install && npm install
 cordova plugin rm org.apache.cordova.console &&
 cordova build --release android && 
 keytool -genkey -v -keystore mascoteros.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000 &&
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mascoteros.keystore mascoteros.apk mascoteros &&
-zipalign -v 4 mascoteros.apk mascoteros-release.apk
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore /Users/milo/GitHub/mascoterosmobile/mascoteros.keystore /Users/milo/GitHub/mascoterosmobile/platforms/android/ant-build/CordovaApp-release-unsigned.apk alias_name &&
+zipalign -v 4 /Users/milo/GitHub/mascoterosmobile/platforms/android/ant-build/CordovaApp-release-unsigned.apk mascoteros-release.apk
+/Applications/android-sdk-macosx/build-tools/20.0.0/zipalign -v 4 /Users/milo/GitHub/mascoterosmobile/platforms/android/ant-build/CordovaApp-release-unsigned.apk /users/milo/Desktop/mascoteros-release.apk
 
 #exporte
 export ANDROID_HOME=/Applications/android-sdk-macosx export ANDROID_TOOLS=Applications/android-sdk-macosx/android-sdk/tools/ export ANDROID_PLATFORM_TOOLS=Applications/android-sdk-macosx/platform-tools/ PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:.
